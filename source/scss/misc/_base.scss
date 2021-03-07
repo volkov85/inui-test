@@ -2,6 +2,7 @@ body {
   font-family: $fontBase;
   font-size: $fontTextRegular;
   margin: 0 auto;
+  background: repeat center url("../img/background.png"), #1c1f22;
 }
 
 a {

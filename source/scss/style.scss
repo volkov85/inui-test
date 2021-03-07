@@ -2,7 +2,7 @@
 @import "normalize";
 
 // Подключаем переменные, функции и миксины
-@import "misc/variables";
+@import "misc/variables", "misc/mixins";
 
 // Подключаем шрифты
 @import "misc/fonts";

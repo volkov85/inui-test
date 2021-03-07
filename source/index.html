@@ -11,7 +11,71 @@
   </head>
   <body class="page">
     <header class="header">
-      <h1>Test header</h1>
+      <div class="header__controls-wrapper">
+        <div class="header__controls-menu">
+          <button class="header__controls-item" type="button">
+            <div class="header__controls-item header__controls-item--circle">
+              <span class="visually-hidden">minimize button</span>
+            </div>
+          </button>
+          <button class="header__controls-item" type="button">
+            <div class="header__controls-item header__controls-item--circle">
+              <span class="visually-hidden">maximize button</span>
+            </div>
+          </button>
+          <button class="header__controls-item" type="button">
+            <div class="header__controls-item header__controls-item--circle">
+              <span class="visually-hidden">close button</span>
+            </div>
+          </button>
+        </div>
+        <div class="header__controls-arrows">
+          <button class="header__controls-item" type="button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="9" height="16" viewbox="0 0 9 16">
+              <path d="M7.75 14.5L1 7.75L7.75 1" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square"/>
+            </svg>
+            <span class="visually-hidden">back button</span>
+          </button>
+          <button class="header__controls-item" type="button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24">
+              <path d="M10 5L16.75 11.75L10 18.5" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square"/>
+            </svg>
+            <span class="visually-hidden">forward button</span>
+          </button>
+        </div>
+      </div>
+      <div class="header__menu-wrapper">
+        <button class="header__menu-item header__menu-item--services" type="button">
+          <span class="visually-hidden">services button</span>
+        </button>
+        <button class="header__menu-item header__menu-item--cloud" type="button">
+          <span class="visually-hidden">cloud button</span>
+        </button>
+        <button class="header__menu-item header__menu-item--gambling" type="button">
+          <span class="visually-hidden">gambling button</span>
+        </button>
+        <button class="header__menu-item header__menu-item--box" type="button">
+          <span class="visually-hidden">box button</span>
+        </button>
+        <button class="header__menu-item header__menu-item--options" type="button">
+          <span class="visually-hidden">options button</span>
+        </button>
+      </div>
+      <div class="header__profile-wrapper">
+        <button class="header__profile-search" type="button">
+          <svg width="24" height="24" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10.3635 3C8.90709 3 7.48342 3.43187 6.27248 4.24099C5.06154 5.05011 4.11773 6.20015 3.5604 7.54567C3.00307 8.89119 2.85724 10.3718 3.14137 11.8002C3.4255 13.2286 4.12681 14.5406 5.15663 15.5704C6.18645 16.6003 7.49851 17.3016 8.92691 17.5857C10.3553 17.8698 11.8359 17.724 13.1814 17.1667C14.5269 16.6093 15.677 15.6655 16.4861 14.4546C17.2952 13.2437 17.7271 11.82 17.7271 10.3636C17.7269 8.41069 16.9511 6.5378 15.5702 5.15688C14.1893 3.77597 12.3164 3.00012 10.3635 3V3Z" stroke-width="0.5" stroke-miterlimit="10"/>
+            <path d="M15.8583 15.8573L21.0009 21" stroke-width="0.5" stroke-miterlimit="10" stroke-linecap="round"/>
+          </svg>
+          <span class="visually-hidden">search button</span>
+        </button>
+        <button class="header__menu-item header__profile-message" type="button">
+          <span class="visually-hidden">message button</span>
+        </button>
+        <button class="header__profile-info" type="button">
+          <span class="visually-hidden">info button</span>
+        </button>
+      </div>
     </header>
     <main class="container">
       <section class="games">
@@ -20,7 +84,7 @@
       </section>
       <section class="now-playing">
       </section>
-      <aside class="missions">
+      <aside class="info">
       </aside>
     </main>
     <div class="overlay"></div>

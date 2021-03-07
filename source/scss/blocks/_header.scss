@@ -1,3 +1,146 @@
 .header {
   display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  background-color: #08090a;
+  border-bottom: 0.5px solid $ColorSecondary;
+  flex-wrap: wrap;
+}
+
+.header__controls-menu {
+  display: flex;
+  align-items: center;
+}
+
+.header__controls-item {
+  @include buttons();
+  background: none;
+  border: none;
+  width: 43px;
+  height: 43px;
+  line-height: 1;
+
+  &--circle {
+    background: none;
+    border: 2px solid $ColorSecondary;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    margin: auto;
+
+    &:hover {
+      background: $ColorPrimary;
+      border: 2px solid $ColorPrimary;
+    }
+  }
+
+  svg {
+    stroke: #34383f;
+    margin: auto;
+
+    &:hover {
+      stroke: #56eaed;
+    }
+  }
+}
+
+.header__controls-arrows {
+  display: flex;
+  align-items: center;
+}
+
+.header__menu-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.header__menu-item {
+  @include buttons();
+  width: 43px;
+  height: 43px;
+  border: none;
+  margin: 0;
+  margin-right: 8px;
+
+  &--services {
+    background: linear-gradient(180deg, rgba(86, 234, 237, 0) 0%, rgba(86, 234, 237, 0.3) 100%), url("./../../img/icon-services.svg") no-repeat center;
+
+    &:hover {
+      background: linear-gradient(90deg, rgba(86, 234, 237, 0) 0%, rgba(86, 234, 237, 0.3) 100%), url("./../../img/icon-services.svg") no-repeat center;
+    }
+  }
+
+  &--cloud {
+    background: linear-gradient(180deg, rgba(86, 234, 237, 0) 0%, rgba(86, 234, 237, 0.3) 100%), url("./../../img/icon-cloud.svg") no-repeat center;
+
+    &:hover {
+      background: linear-gradient(90deg, rgba(86, 234, 237, 0) 0%, rgba(86, 234, 237, 0.3) 100%), url("./../../img/icon-cloud.svg") no-repeat center;
+    }
+  }
+
+  &--gambling {
+    background: linear-gradient(180deg, rgba(86, 234, 237, 0) 0%, rgba(86, 234, 237, 0.3) 100%), url("./../../img/icon-gambling.svg") no-repeat center;
+
+    &:hover {
+      background: linear-gradient(90deg, rgba(86, 234, 237, 0) 0%, rgba(86, 234, 237, 0.3) 100%), url("./../../img/icon-gambling.svg") no-repeat center;
+    }
+  }
+
+  &--box {
+    background: linear-gradient(180deg, rgba(86, 234, 237, 0) 0%, rgba(86, 234, 237, 0.3) 100%), url("./../../img/icon-box.svg") no-repeat center;
+
+    &:hover {
+      background: linear-gradient(90deg, rgba(86, 234, 237, 0) 0%, rgba(86, 234, 237, 0.3) 100%), url("./../../img/icon-box.svg") no-repeat center;
+    }
+  }
+
+  &--options {
+    background: linear-gradient(180deg, rgba(86, 234, 237, 0) 0%, rgba(86, 234, 237, 0.3) 100%), url("./../../img/icon-options.svg") no-repeat center;
+
+    &:hover {
+      background: linear-gradient(90deg, rgba(86, 234, 237, 0) 0%, rgba(86, 234, 237, 0.3) 100%), url("./../../img/icon-options.svg") no-repeat center;
+    }
+  }
+}
+
+.header__profile-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.header__profile-search {
+  @include buttons();
+  width: 43px;
+  height: 43px;
+  border: none;
+  background: none;
+
+  svg {
+    stroke: #56eaed;
+    margin: auto;
+
+    &:hover {
+      stroke: tomato;
+    }
+  }
+}
+
+.header__profile-info {
+  @include buttons();
+  border: none;
+  width: 43px;
+  height: 43px;
+  background: url("./../../img/profile-photo-mini.jpg") no-repeat center;
+}
+
+.header__controls-wrapper {
+  display: flex;
+}
+
+.header__profile-message {
+  background: linear-gradient(180deg, rgba(86, 234, 237, 0) 0%, rgba(86, 234, 237, 0.3) 100%), url("./../../img/icon-message.svg") no-repeat center;
+
+  &:hover {
+    background: linear-gradient(90deg, rgba(86, 234, 237, 0) 0%, rgba(86, 234, 237, 0.3) 100%), url("./../../img/icon-message.svg") no-repeat center;
+  }
 }
