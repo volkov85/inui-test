@@ -1,0 +1,52 @@
+$fontBase: "Bai Jamjuree", "Arial", sans-serif;
+$fontSecondary: "ArcadeClassic", "Arial", sans-serif;
+
+$fontHeadersH1: 32px;
+
+$fontTextRegular: 14px;
+$fontTextMedium: 16px;
+
+$fontTextHeader: 18px;
+
+$lineHeightRegular: 16px;
+$lineHeightMedium: 17px;
+
+$lineHeightH1: 38px;
+$lineHeightH2: 29px;
+
+$fontRegular: 400;
+$fontMedium: 500;
+
+// Подключаем шрифт
+@font-face {
+  font-weight: $fontRegular;
+  font-family: "Bai Jamjuree";
+  font-display: swap;
+  font-style: normal;
+  src:
+    local(""),
+    url("../fonts/bai-jamjuree-v4-latin-regular.woff2") format("woff2"),
+    url("../fonts/bai-jamjuree-v4-latin-regular.woff") format("woff");
+}
+
+@font-face {
+  font-weight: $fontMedium;
+  font-family: "Bai Jamjuree";
+  font-display: swap;
+  font-style: normal;
+  src:
+    local(""),
+    url("../fonts/bai-jamjuree-v4-latin-500.woff2") format("woff2"),
+    url("../fonts/bai-jamjuree-v4-latin-500.woff") format("woff");
+}
+
+@font-face {
+  font-weight: $fontRegular;
+  font-family: "ArcadeClassic";
+  font-display: swap;
+  font-style: normal;
+  src:
+    local(""),
+    url("../fonts/ARCADECLASSIC.woff2") format("woff2"),
+    url("../fonts/ARCADECLASSIC.woff") format("woff");
+}
