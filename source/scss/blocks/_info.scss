@@ -1,0 +1,12 @@
+.info {
+  box-sizing: border-box;
+  width: 452px;
+  background: #08090a;
+  border: 0.5px solid $ColorSecondary;
+  grid-area: aside;
+  display: none;
+}
+
+.info__opened {
+  display: block;
+}

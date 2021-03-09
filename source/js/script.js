@@ -13,3 +13,15 @@ let offerSwiper = new Swiper(`.swiper-container`, {
     prevEl: `.offer__slider-button--prev`
   }
 });
+
+const infoButton = document.querySelector('.header__profile-info');
+const infoButtonClose = document.querySelector('.info__button-close');
+const infoPanel = document.querySelector('.info');
+
+infoButton.addEventListener('click', () => {
+  infoPanel.classList.toggle('info__opened');
+});
+
+infoButtonClose.addEventListener('click', () => {
+  infoPanel.classList.remove('info__opened');
+});

@@ -1,4 +1,8 @@
 .container {
-  display: flex;
-  flex-direction: column;
+  // display: flex;
+  // flex-direction: column;
+  display: grid;
+  grid-template-areas:
+    "games aside"
+    "main aside";
 }
