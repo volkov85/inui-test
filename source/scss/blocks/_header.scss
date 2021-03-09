@@ -35,11 +35,11 @@
   }
 
   svg {
-    stroke: #34383f;
+    stroke: $ColorSecondary;
     margin: auto;
 
     &:hover {
-      stroke: #56eaed;
+      stroke: $ColorPrimary;
     }
   }
 }
