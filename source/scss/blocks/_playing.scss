@@ -182,4 +182,21 @@
 .playing-wrapper {
   height: 430px;
   overflow: auto;
+
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: none;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $ColorPrimary;
+    border-radius: 20px;
+    border: 3px solid $ColorPrimary;
+  }
+
+  scrollbar-width: thin;
+  scrollbar-color: $ColorPrimary black;
 }
