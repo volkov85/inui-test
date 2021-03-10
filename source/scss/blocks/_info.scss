@@ -10,3 +10,238 @@
 .info__opened {
   display: block;
 }
+
+.info__button-close {
+  @include buttons();
+  font-family: $fontSecondary;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: $ColorSecondary;
+  background: url("./../../img/info-close-btn.svg") no-repeat #08090a;
+  width: 145px;
+  height: 53px;
+  border: none;
+  box-sizing: border-box;
+  text-align: left;
+  padding-left: 20px;
+
+  &:hover {
+    color: $ColorPrimary;
+    background: url("./../../img/info-close-btn-hover.svg") no-repeat #08090a;
+  }
+}
+
+.info__title {
+  width: 270px;
+  padding-left: 25px;
+}
+
+.info__title-missions {
+  font-family: $fontSecondary;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: $ColorPrimary;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.info__title-missions-wrapper {
+  span {
+    &:first-child {
+      font-size: $fontTextRegular;
+      line-height: 100%;
+      letter-spacing: 1px;
+      color: $ColorSecondary;
+    }
+
+    &:last-child {
+      font-family: $fontSecondary;
+      font-size: 18px;
+      line-height: 24px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: $ColorPrimary;
+    }
+  }
+}
+
+.info__timing {
+  display: flex;
+  flex-direction: column;
+}
+
+.info__timing-title {
+  font-weight: $fontMedium;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: $ColorSecondary;
+}
+
+.info__timing-time {
+  font-family: $fontSecondary;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ed56ec;
+  letter-spacing: 2px;
+}
+
+.info__timing-progress {
+  font-family: $fontSecondary;
+  font-size: 21px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.info__title-wrapper {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 45px;
+}
+
+.info__rating-rapper {
+  display: flex;
+}
+
+.info__rating-mini {
+  display: inline-block;
+  line-height: 24px;
+  margin-left: 8px;
+  transform: skewX(-30deg);
+  letter-spacing: 2px;
+}
+
+.info__rating-mini span {
+  padding: 0;
+  font-size: 10px;
+  line-height: 1;
+  color: $ColorSecondary;
+  background: $ColorSecondary;
+}
+
+.info__rating-mini > span::before {
+  content: "1";
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.info__rating-mini > span.info__rating-active {
+  background: $ColorPrimary;
+  color: $ColorPrimary;
+}
+
+.info__hive-hexx-title {
+  font-size: 14px;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+.info__hive-hexx-stats {
+  font-family: $fontSecondary;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: $ColorPrimary;
+}
+
+.info__hive-hexx {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 124px;
+  height: 110px;
+  justify-content: center;
+  background: url("./../../img/hexx-back.svg") no-repeat center;
+  margin: 3px;
+
+  &--stats {
+    margin-left: 100px;
+    background: url("./../../img/hexx-back-border.svg") no-repeat center;
+  }
+
+  &--matches {
+    margin-left: 100px;
+  }
+
+  &--french {
+    margin-left: 100px;
+  }
+
+  &--results {
+    position: absolute;
+    top: 56px;
+
+    .info__hive-hexx-stats {
+      color: #ed56ec;
+
+      span {
+        color: $ColorPrimary;
+      }
+    }
+  }
+
+  &--skill {
+    position: absolute;
+    top: 56px;
+    left: 194px;
+  }
+
+  &--rank {
+    background: url("./../../img/hexx-back-border-rank.svg") no-repeat center;
+    filter: drop-shadow(0 0 30px rgba(86, 234, 237, 0.3));
+    position: absolute;
+    top: 165px;
+    left: 189px;
+    width: 134px;
+    height: 117px;
+  }
+
+  svg {
+    margin-bottom: 10px;
+
+    path {
+      fill: #56eaed;
+    }
+  }
+
+  img {
+    margin-bottom: 10px;
+  }
+
+  &:hover {
+    span {
+      color: tomato;
+    }
+
+    svg {
+      margin-bottom: 10px;
+
+      path {
+        fill: tomato;
+      }
+    }
+  }
+}
+
+.info__hive {
+  width: 420px;
+  margin: auto;
+  display: flex;
+  position: relative;
+  background: radial-gradient(30% 45% at 40% 35%, $ColorPrimary, rgba(86, 234, 237, 0) 70%);
+}
+
+.info__hive-hexx-right {
+  align-self: flex-end;
+  margin-left: 64px;
+}
