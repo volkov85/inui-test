@@ -34,7 +34,7 @@
 
   &:hover {
     transition: all 0.4s;
-    background: url("./../../img/slider-border.svg") no-repeat center, rgba(17, 19, 21, 0.1);
+    background: url("./../img/slider-border.svg") no-repeat center, rgba(17, 19, 21, 0.1);
     backdrop-filter: blur(50px);
 
     .games__date {
@@ -67,7 +67,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    background: url("./../../img/slider-border-date.svg") no-repeat center;
+    background: url("./../img/slider-border-date.svg") no-repeat center;
     z-index: 10;
     width: 330px;
     height: 40px;
@@ -117,7 +117,7 @@
   width: 30px;
   height: 211px;
   padding: 0;
-  // background: url("./../../img/slider-arrow-left.svg") no-repeat center;
+  // background: url("./../img/slider-arrow-left.svg") no-repeat center;
   background: linear-gradient(89.67deg, #08090a 0.34%, rgba(8, 9, 10, 0.9) 24.71%, rgba(8, 9, 10, 0.8) 38.73%, rgba(8, 9, 10, 0.6) 55.2%, rgba(8, 9, 10, 0.45) 69.57%, rgba(8, 9, 10, 0.3) 81.07%, rgba(8, 9, 10, 0.15) 91.8%, rgba(8, 9, 10, 0) 99.76%);
   border: none;
   cursor: pointer;

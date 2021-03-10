@@ -63,42 +63,42 @@
   margin-right: 8px;
 
   &--services {
-    background: linear-gradient(180deg, rgba(86, 234, 237, 0) 0%, rgba(86, 234, 237, 0.3) 100%), url("./../../img/icon-services.svg") no-repeat center;
+    background: linear-gradient(180deg, rgba(86, 234, 237, 0) 0%, rgba(86, 234, 237, 0.3) 100%), url("./../img/icon-services.svg") no-repeat center;
 
     &:hover {
-      background: linear-gradient(90deg, rgba(86, 234, 237, 0) 0%, rgba(86, 234, 237, 0.3) 100%), url("./../../img/icon-services.svg") no-repeat center;
+      background: linear-gradient(90deg, rgba(86, 234, 237, 0) 0%, rgba(86, 234, 237, 0.3) 100%), url("./../img/icon-services.svg") no-repeat center;
     }
   }
 
   &--cloud {
-    background: linear-gradient(180deg, rgba(86, 234, 237, 0) 0%, rgba(86, 234, 237, 0.3) 100%), url("./../../img/icon-cloud2.svg") no-repeat center;
+    background: linear-gradient(180deg, rgba(86, 234, 237, 0) 0%, rgba(86, 234, 237, 0.3) 100%), url("./../img/icon-cloud2.svg") no-repeat center;
 
     &:hover {
-      background: linear-gradient(90deg, rgba(86, 234, 237, 0) 0%, rgba(86, 234, 237, 0.3) 100%), url("./../../img/icon-cloud2.svg") no-repeat center;
+      background: linear-gradient(90deg, rgba(86, 234, 237, 0) 0%, rgba(86, 234, 237, 0.3) 100%), url("./../img/icon-cloud2.svg") no-repeat center;
     }
   }
 
   &--gambling {
-    background: linear-gradient(180deg, rgba(86, 234, 237, 0) 0%, rgba(86, 234, 237, 0.3) 100%), url("./../../img/icon-gambling2.svg") no-repeat center;
+    background: linear-gradient(180deg, rgba(86, 234, 237, 0) 0%, rgba(86, 234, 237, 0.3) 100%), url("./../img/icon-gambling2.svg") no-repeat center;
 
     &:hover {
-      background: linear-gradient(90deg, rgba(86, 234, 237, 0) 0%, rgba(86, 234, 237, 0.3) 100%), url("./../../img/icon-gambling2.svg") no-repeat center;
+      background: linear-gradient(90deg, rgba(86, 234, 237, 0) 0%, rgba(86, 234, 237, 0.3) 100%), url("./../img/icon-gambling2.svg") no-repeat center;
     }
   }
 
   &--box {
-    background: linear-gradient(180deg, rgba(86, 234, 237, 0) 0%, rgba(86, 234, 237, 0.3) 100%), url("./../../img/icon-box2.svg") no-repeat center;
+    background: linear-gradient(180deg, rgba(86, 234, 237, 0) 0%, rgba(86, 234, 237, 0.3) 100%), url("./../img/icon-box2.svg") no-repeat center;
 
     &:hover {
-      background: linear-gradient(90deg, rgba(86, 234, 237, 0) 0%, rgba(86, 234, 237, 0.3) 100%), url("./../../img/icon-box2.svg") no-repeat center;
+      background: linear-gradient(90deg, rgba(86, 234, 237, 0) 0%, rgba(86, 234, 237, 0.3) 100%), url("./../img/icon-box2.svg") no-repeat center;
     }
   }
 
   &--options {
-    background: linear-gradient(180deg, rgba(86, 234, 237, 0) 0%, rgba(86, 234, 237, 0.3) 100%), url("./../../img/icon-options.svg") no-repeat center;
+    background: linear-gradient(180deg, rgba(86, 234, 237, 0) 0%, rgba(86, 234, 237, 0.3) 100%), url("./../img/icon-options.svg") no-repeat center;
 
     &:hover {
-      background: linear-gradient(90deg, rgba(86, 234, 237, 0) 0%, rgba(86, 234, 237, 0.3) 100%), url("./../../img/icon-options.svg") no-repeat center;
+      background: linear-gradient(90deg, rgba(86, 234, 237, 0) 0%, rgba(86, 234, 237, 0.3) 100%), url("./../img/icon-options.svg") no-repeat center;
     }
   }
 }
@@ -130,7 +130,7 @@
   border: none;
   width: 43px;
   height: 43px;
-  background: url("./../../img/profile-photo-mini.jpg") no-repeat center;
+  background: url("./../img/profile-photo-mini.jpg") no-repeat center;
 }
 
 .header__controls-wrapper {
@@ -138,9 +138,9 @@
 }
 
 .header__profile-message {
-  background: linear-gradient(180deg, rgba(86, 234, 237, 0) 0%, rgba(86, 234, 237, 0.3) 100%), url("./../../img/icon-message.svg") no-repeat center;
+  background: linear-gradient(180deg, rgba(86, 234, 237, 0) 0%, rgba(86, 234, 237, 0.3) 100%), url("./../img/icon-message.svg") no-repeat center;
 
   &:hover {
-    background: linear-gradient(90deg, rgba(86, 234, 237, 0) 0%, rgba(86, 234, 237, 0.3) 100%), url("./../../img/icon-message.svg") no-repeat center;
+    background: linear-gradient(90deg, rgba(86, 234, 237, 0) 0%, rgba(86, 234, 237, 0.3) 100%), url("./../img/icon-message.svg") no-repeat center;
   }
 }

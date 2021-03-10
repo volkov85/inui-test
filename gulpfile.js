@@ -90,6 +90,7 @@ function copy() {
     `source/fonts/**/*.{woff,woff2}`,
     `source/img/**`,
     `source/img/icon-*.svg`,
+    `source/img/*.svg`,
     `source/video/**`,
     `source/*.ico`
   ], {
