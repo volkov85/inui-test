@@ -22,3 +22,22 @@ ul {
   list-style: none;
   padding: 0;
 }
+
+.overlay-button {
+  @include buttons();
+  width: 41px;
+  height: 41px;
+  background: url("./../../img/RGB-title.svg") no-repeat 30%, url("./../../img/RGB-back.svg") no-repeat center;
+  border: none;
+  position: fixed;
+  top: 480px;
+  left: 0;
+
+  &:hover {
+    background: url("./../../img/RGB-title.svg") no-repeat 30%, url("./../../img/RGB-back-hover.svg") no-repeat center;
+  }
+
+  &:active {
+    background: url("./../../img/RGB-title.svg") no-repeat 30%, url("./../../img/RGB-back.svg") no-repeat center;
+  }
+}
