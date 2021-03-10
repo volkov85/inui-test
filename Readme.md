@@ -1,5 +1,7 @@
 # INUI testing task
 
+# Cсылка на сборку https://volkov85.github.io/inui-test/
+
 # Frontend часть
 
 ## Выполненный объем работ:
